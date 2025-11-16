@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Lunatic Hospitality</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #0f172a;
+      color: #e5e7eb;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: #111827;
+      padding: 1rem;
+      text-align: center;
+    }
+    header h1 { margin: 0; color: #38bdf8; }
+    nav a {
+      margin: 0 1rem;
+      color: #e5e7eb;
+      text-decoration: none;
+    }
+    section {
+      padding: 2rem;
+      max-width: 800px;
+      margin: auto;
+    }
+    h2 { color: #22c55e; }
+    footer {
+      background: #111827;
+      padding: 1rem;
+      text-align: center;
+      color: #9ca3af;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Lunatic Hospitality</h1>
+    <nav>
+      <a href="#services">Services</a>
+      <a href="#forfaits">Forfaits</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="services">
+    <h2>Services</h2>
+    <p>Voyages institutionnels, executive training, corporate events et solutions intégrées pour ONG et entreprises.</p>
+  </section>
+
+  <section id="forfaits">
+    <h2>Forfaits</h2>
+    <ul>
+      <li>Kinshasa Executive Sprint (48–72h)</li>
+      <li>Programme ONG Terrain multi‑sites</li>
+      <li>Retraite Direction & Training</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email : <a href="mailto:info@lunatichospitality.com">info@lunatichospitality.com</a></p>
+  </section>
+
+  <footer>
+    © 2025 Lunatic Hospitality — Kinshasa, RDC
+  </footer>
+</body>
+</html>
